@@ -1,0 +1,667 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+        integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <title>Document</title>
+    <style>
+        body {
+            background-color: #EEF7E8;
+        }
+
+        #nav {
+            background-color: white;
+            margin-top: 10px;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container-fluid p-0" id="bar">
+        <nav class="navbar navbar-expand-lg navbar-light ">
+            <div class="row w-100">
+                <div class="col-sm-12 col-md-7">
+                    <a class="navbar-brand" href="#"> <img class="p-2 " src="images/logo.jpeg" height="70" alt=""></a>
+                    <button class="navbar-toggler float-right mt-4 bg-light" type="button" data-toggle="collapse"
+                        data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false"
+                        aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                </div>
+                <div class="col-sm-12 col-md-5 ">
+                    <div class="collapse navbar-collapse " id="navbarNavAltMarkup">
+                        <div class="navbar-nav text-center pt-3">
+                            <a class="nav-item nav-link active text-light" href="index.html">Home <span class="sr-only">(current)</span></a>
+                            <a class="nav-item nav-link text-light" href="about.html">About</a>
+                            <a class="nav-item nav-link text-light" href="backpack.html">Backpack</a>
+                            <a class="nav-item nav-link text-light" href="product.html">Products</a>
+                            <a class="nav-item nav-link  text-light" href="#">Contact Us</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </nav>
+    </div>
+    <!-- <div class="container-fluid" id="nav">
+        <div class="row">
+            <div class="col-sm-12 col-md-3 ">
+                <img class="p-2 " src="images/logo.jpeg" height="70" alt="">
+            </div>
+            <div class="col-sm-12 col-md-9">
+                <ul class="nav justify-content-end pt-4  ">
+                    <li class="nav-item">
+                        <a class="nav-link active" href="index.html">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="about.html">About</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="backpack.html">Backpack</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="product.html">Products</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Contact Us</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </div> -->
+    <!--watches-->
+    <div class="container text-center mt-5">
+        <div class="row">
+            <div class="col-sm-12 col-md-1"></div>
+            <div class="col-sm-12 col-md-3">
+                <div class="card p-0">
+                    <img src="images/watch1.jpeg" class="card-img-top" alt="...">
+                    <div class="card-body p-0 pb-2">
+                        <h5 class="card-title">Rolex Watch</h5>
+                        <p class="card-text">RS.1500 only</p>
+                        <a href="#" class="btn btn-danger" onclick="animation()">Add To Cart</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-sm-12 col-md-3">
+                <div class="card p-0">
+                    <img src="images/watch2.jpeg" class="card-img-top" alt="...">
+                    <div class="card-body p-0 pb-2">
+                        <h5 class="card-title">Rado </h5>
+                        <p class="card-text"> Rs. 999 only</p>
+                        <a href="#" class="btn btn-danger" onclick="animation()">Add To Cart</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-sm-12 col-md-3">
+                <div class="card p-0 pb-2">
+                    <img src="images/watch3.jpeg" class="card-img-top" alt="...">
+                    <div class="card-body p-0 pb-2">
+                        <h5 class="card-title">Rolex</h5>
+                        <p class="card-text">Rs. 1800 only</p>
+                        <a href="#" class="btn btn-danger" onclick="animation()">Add To Cart</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-sm-12 col-md-2"></div>
+        </div>
+        <div class="row mt-5">
+            <div class="col-sm-12 col-md-1"></div>
+            <div class="col-sm-12 col-md-3">
+                <div class="card">
+                    <img src="images/watch4.jpeg" class="card-img-top" alt="...">
+                    <div class="card-body p-0 pb-2">
+                        <h5 class="card-title">Rolex Watch</h5>
+                        <p class="card-text">RS.1870 only</p>
+                        <a href="#" class="btn btn-danger" onclick="animation()">Add To Cart</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-sm-12 col-md-3">
+                <div class="card">
+
+                    <img src="images/watch5.jpeg" class="card-img-top" alt="...">
+                    <div class="card-body p-0 pb-2">
+                        <h5 class="card-title">Rolex</h5>
+                        <p class="card-text"> Rs. 1000 only</p>
+                        <a href="#" class="btn btn-danger" onclick="animation()">Add To Cart</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-sm-12 col-md-3">
+                <div class="card">
+                    <img src="images/watch6.jpeg" class="card-img-top" alt="...">
+                    <div class="card-body p-0 pb-2">
+                        <h5 class="card-title">Rolex</h5>
+                        <p class="card-text">Rs. 800 only</p>
+                        <a href="#" class="btn btn-danger" onclick="animation()">Add To Cart</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-sm-12 col-md-2"></div>
+        </div>
+        <div class="row mt-5">
+            <div class="col-sm-12 col-md-1"></div>
+            <div class="col-sm-12 col-md-3">
+                <div class="card ">
+                    <img src="images/watch7.jpeg" class="card-img-top" alt="...">
+                    <div class="card-body p-0 pb-2">
+                        <h5 class="card-title">Rolex Watch</h5>
+                        <p class="card-text">RS.1500 only</p>
+                        <a href="#" class="btn btn-danger" onclick="animation()">Add To Cart</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-sm-12 col-md-3">
+                <div class="card">
+                    <img src="images/watch8.jpeg" class="card-img-top" alt="...">
+                    <div class="card-body p-0 pb-2">
+                        <h5 class="card-title">Rolex watch</h5>
+                        <p class="card-text"> Rs. 1000 only</p>
+                        <a href="#" class="btn btn-danger" onclick="animation()">Add To Cart</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-sm-12 col-md-3">
+                <div class="card">
+                    <img src="images/watch9.jpeg" class="card-img-top" alt="...">
+                    <div class="card-body p-0 pb-2">
+                        <h5 class="card-title">Skylfe</h5>
+                        <p class="card-text">Rs. 1800 only</p>
+                        <a href="#" class="btn btn-danger" onclick="animation()">Add To Cart</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-sm-12 col-md-2"></div>
+        </div>
+        <div class="row mt-5">
+            <div class="col-sm-12 col-md-1"></div>
+            <div class="col-sm-12 col-md-3">
+                <div class="card">
+                    <img src="images/watch10.jpeg" class="card-img-top" alt="...">
+                    <div class="card-body p-0 pb-2">
+                        <h5 class="card-title">Rolex Watch</h5>
+                        <p class="card-text">RS.1500 only</p>
+                        <a href="#" class="btn btn-danger" onclick="animation()">Add To Cart</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-sm-12 col-md-3">
+                <div class="card">
+                    <img src="images/watch11.jpeg" class="card-img-top" alt="...">
+                    <div class="card-body p-0 pb-2">
+                        <h5 class="card-title">Rolex watch</h5>
+                        <p class="card-text"> Rs. 1000 only</p>
+                        <a href="#" class="btn btn-danger" onclick="animation()">Add To Cart</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-sm-12 col-md-3">
+                <div class="card">
+                    <img src="images/watch12.jpeg" class="card-img-top" alt="...">
+                    <div class="card-body p-0 pb-2 pb-2">
+                        <h5 class="card-title">Skylfe</h5>
+                        <p class="card-text">Rs. 1800 only</p>
+                        <a href="#" class="btn btn-danger" onclick="animation()">Add To Cart</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-sm-12 col-md-2"></div>
+        </div>
+        <div class="row mt-5">
+            <div class="col-sm-12 col-md-1"></div>
+            <div class="col-sm-12 col-md-3">
+                <div class="card">
+                    <img src="images/watch13.jpeg" class="card-img-top" alt="...">
+                    <div class="card-body p-0 pb-2">
+                        <h5 class="card-title">Rolex Watch</h5>
+                        <p class="card-text">RS.1500 only</p>
+                        <a href="#" class="btn btn-danger" onclick="animation()">Add To Cart</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-sm-12 col-md-3">
+                <div class="card">
+                    <img src="images/watch14.jpeg" class="card-img-top" alt="...">
+                    <div class="card-body p-0 pb-2">
+                        <h5 class="card-title">Rolex watch</h5>
+                        <p class="card-text"> Rs. 1000 only</p>
+                        <a href="#" class="btn btn-danger" onclick="animation()">Add To Cart</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-sm-12 col-md-3">
+                <div class="card">
+                    <img src="images/watch15.jpeg" class="card-img-top" alt="...">
+                    <div class="card-body p-0 pb-2">
+                        <h5 class="card-title">Skylfe</h5>
+                        <p class="card-text">Rs. 1800 only</p>
+                        <a href="#" class="btn btn-danger" onclick="animation()">Add To Cart</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-sm-12 col-md-2"></div>
+        </div>
+        <div class="row mt-5">
+            <div class="col-sm-12 col-md-1"></div>
+            <div class="col-sm-12 col-md-3">
+                <div class="card">
+                    <img src="images/watch16.jpeg" class="card-img-top" alt="...">
+                    <div class="card-body p-0 pb-2">
+                        <h5 class="card-title">Rolex Watch</h5>
+                        <p class="card-text">RS.1500 only</p>
+                        <a href="#" class="btn btn-danger" onclick="animation()">Add To Cart</a>
+
+                    </div>
+                </div>
+            </div>
+            <div class="col-sm-12 col-md-3">
+                <div class="card">
+                    <img src="images/watch17.jpeg" class="card-img-top" alt="...">
+                    <div class="card-body p-0 pb-2 ">
+                        <h5 class="card-title">Rolex watch</h5>
+                        <p class="card-text"> Rs. 1000 only</p>
+                        <a href="#" class="btn btn-danger" onclick="animation()">Add To Cart</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-sm-12 col-md-3">
+                <div class="card">
+                    <img src="images/watch18.jpeg" class="card-img-top" alt="...">
+                    <div class="card-body p-0 pb-2">
+                        <h5 class="card-title">Skylfe</h5>
+                        <p class="card-text">Rs. 1800 only</p>
+                        <a href="#" class="btn btn-danger" onclick="animation()">Add To Cart</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-sm-12 col-md-2"></div>
+        </div>
+    </div>
+
+    <!--bags-->
+    <div class="container text-center mt-5">
+        <div class="row">
+            <div class="col-sm-12 col-md-1"></div>
+            <div class="col-sm-12 col-md-3">
+                <div class="card">
+                    <img src="images/bag1.jpeg" class="card-img-top" alt="...">
+                    <div class="card-body p-0 pb-2">
+                        <h5 class="card-title">Retro Genuine</h5>
+                        <p class="card-text">RS.2500 only</p>
+                        <a href="#" class="btn btn-danger" onclick="animation()">Add To Cart</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-sm-12 col-md-3">
+                <div class="card">
+                    <img src="images/bag2.jpeg" class="card-img-top" alt="...">
+                    <div class="card-body p-0 pb-2">
+                        <h5 class="card-title">A Chic Bag</h5>
+                        <p class="card-text"> Rs. 1000 only</p>
+                        <a href="#" class="btn btn-danger" onclick="animation()">Add To Cart</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-sm-12 col-md-3">
+                <div class="card">
+                    <img src="images/bag3.jpeg" class="card-img-top" alt="...">
+                    <div class="card-body p-0 pb-2">
+                        <h5 class="card-title">Bolsas De </h5>
+                        <p class="card-text">Rs. 1800 only</p>
+                        <a href="#" class="btn btn-danger" onclick="animation()">Add To Cart</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-sm-12 col-md-2"></div>
+        </div>
+        <div class="row mt-5">
+            <div class="col-sm-12 col-md-1"></div>
+            <div class="col-sm-12 col-md-3">
+                <div class="card">
+                    <img src="images/bag4.jpeg" class="card-img-top" alt="...">
+                    <div class="card-body p-0 pb-2">
+                        <h5 class="card-title">China Bag</h5>
+                        <p class="card-text">RS.2700 only</p>
+                        <a href="#" class="btn btn-danger" onclick="animation()">Add To Cart</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-sm-12 col-md-3">
+                <div class="card">
+                    <img src="images/bag5.jpeg" class="card-img-top" alt="...">
+                    <div class="card-body p-0 pb-2">
+                        <h5 class="card-title">Luxury Natural</h5>
+                        <p class="card-text"> Rs. 1000 only</p>
+                        <a href="#" class="btn btn-danger">Add To Cart</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-sm-12 col-md-3">
+                <div class="card">
+                    <img src="images/bag6.jpeg" class="card-img-top" alt="...">
+                    <div class="card-body p-0 pb-2">
+                        <h5 class="card-title">Canvas Bag</h5>
+                        <p class="card-text">Rs. 800 only</p>
+                        <a href="#" class="btn btn-danger" onclick="animation()">Add To Cart</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-sm-12 col-md-2"></div>
+        </div>
+        <div class="row mt-5">
+            <div class="col-sm-12 col-md-1"></div>
+            <div class="col-sm-12 col-md-3">
+                <div class="card">
+                    <img src="images/bag7.jpeg" class="card-img-top" alt="...">
+                    <div class="card-body p-0 pb-2">
+                        <h5 class="card-title">Cross Body</h5>
+                        <p class="card-text">RS.999 only</p>
+                        <a href="#" class="btn btn-danger" onclick="animation()">Add To Cart</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-sm-12 col-md-3">
+                <div class="card">
+                    <img src="images/bag8.jpeg" class="card-img-top" alt="...">
+                    <div class="card-body p-0 pb-2">
+                        <h5 class="card-title">Tote Bag</h5>
+                        <p class="card-text"> Rs. 1100 only</p>
+                        <a href="#" class="btn btn-danger" onclick="animation()">Add To Cart</a>
+
+                    </div>
+                </div>
+            </div>
+            <div class="col-sm-12 col-md-3">
+                <div class="card">
+                    <img src="images/bag9.jpeg" class="card-img-top" alt="...">
+                    <div class="card-body p-0 pb-2">
+                        <h5 class="card-title">Square </h5>
+                        <p class="card-text">Rs. 1700 only</p>
+                        <a href="#" class="btn btn-danger" onclick="animation()">Add To Cart</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-sm-12 col-md-2"></div>
+        </div>
+        <div class="row mt-5">
+            <div class="col-sm-12 col-md-1"></div>
+            <div class="col-sm-12 col-md-3">
+                <div class="card">
+                    <img src="images/bag10.jpeg" class="card-img-top" alt="...">
+                    <div class="card-body p-0 pb-2">
+                        <h5 class="card-title">Seegrass Bag</h5>
+                        <p class="card-text">RS.2800 only</p>
+                        <a href="#" class="btn btn-danger" onclick="animation()">Add To Cart</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-sm-12 col-md-3">
+                <div class="card">
+                    <img src="images/bag11.jpeg" class="card-img-top" alt="...">
+                    <div class="card-body p-0 pb-2">
+                        <h5 class="card-title">Rolex watch</h5>
+                        <p class="card-text"> Rs. 1000 only</p>
+                        <a href="#" class="btn btn-danger" onclick="animation()">Add To Cart</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-sm-12 col-md-3">
+                <div class="card">
+                    <img src="images/bag14.jpeg" class="card-img-top" alt="...">
+                    <div class="card-body p-0 pb-2 ">
+                        <h5 class="card-title">Skylfe</h5>
+                        <p class="card-text">Rs. 1800 only</p>
+                        <a href="#" class="btn btn-danger" onclick="animation()">Add To Cart</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-sm-12 col-md-2"></div>
+        </div>
+        <div class="row mt-5">
+            <div class="col-sm-12 col-md-1"></div>
+            <div class="col-sm-12 col-md-3">
+                <div class="card">
+                    <img src="images/bag15.jpeg" class="card-img-top" alt="...">
+                    <div class="card-body p-0 pb-2">
+                        <h5 class="card-title">Rolex Watch</h5>
+                        <p class="card-text">RS.1500 only</p>
+                        <a href="#" class="btn btn-danger" onclick="animation()">Add To Cart</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-sm-12 col-md-3">
+                <div class="card">
+                    <img src="images/bag16.jpeg" class="card-img-top" alt="...">
+                    <div class="card-body p-0 pb-2">
+                        <h5 class="card-title">Rolex watch</h5>
+                        <p class="card-text"> Rs. 1000 only</p>
+                        <a href="#" class="btn btn-danger" onclick="animation()">Add To Cart</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-sm-12 col-md-3">
+                <div class="card">
+                    <img src="images/bag17.jpeg" class="card-img-top" alt="...">
+                    <div class="card-body p-0 pb-2">
+                        <h5 class="card-title">Skylfe</h5>
+                        <p class="card-text">Rs. 1800 only</p>
+                        <a href="#" class="btn btn-danger" onclick="animation()">Add To Cart</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-sm-12 col-md-2"></div>
+        </div>
+        <div class="row mt-5">
+            <div class="col-sm-12 col-md-1"></div>
+            <div class="col-sm-12 col-md-3">
+                <div class="card">
+                    <img src="images/bag18.jpeg" class="card-img-top" alt="...">
+                    <div class="card-body p-0 pb-2">
+                        <h5 class="card-title">Rolex Watch</h5>
+                        <p class="card-text">RS.1500 only</p>
+                        <a href="#" class="btn btn-danger" onclick="animation()">Add To Cart</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-sm-12 col-md-3">
+                <div class="card">
+                    <img src="images/bag19.jpeg" class="card-img-top" alt="...">
+                    <div class="card-body p-0 pb-2">
+                        <h5 class="card-title">Addidas Slipper</h5>
+                        <p class="card-text"> Rs. 1000 only</p>
+                        <a href="#" class="btn btn-danger" onclick="animation()">Add To Cart</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-sm-12 col-md-3">
+                <div class="card">
+                    <img src="images/bag20.jpeg" class="card-img-top" alt="...">
+                    <div class="card-body p-0 pb-2">
+                        <h5 class="card-title">Skylfe</h5>
+                        <p class="card-text">Rs. 1800 only</p>
+                        <a href="#" class="btn btn-danger" onclick="animation()">Add To Cart</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-sm-12 col-md-2"></div>
+        </div>
+    </div>
+    <!--Slipper-->
+    <div class="container text-center mt-5">
+        <div class="row">
+            <div class="col-sm-12 col-md-1"></div>
+            <div class="col-sm-12 col-md-3">
+                <div class="card">
+                    <img src="images/WhatsApp Image 2021-02-20 at 5.56.36 PM.jpeg" class="card-img-top" alt="...">
+                    <div class="card-body p-0 pb-2">
+                        <h5 class="card-title">Nike</h5>
+                        <p class="card-text">RS.1500 only</p>
+                        <a href="#" class="btn btn-danger" onclick="animation()">Add To Cart</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-sm-12 col-md-3">
+                <div class="card">
+                    <img src="images/WhatsApp Image 2021-02-20 at 5.56.38 PM.jpeg" class="card-img-top" alt="...">
+                    <div class="card-body p-0 pb-2">
+                        <h5 class="card-title">Addidas Slipper</h5>
+                        <p class="card-text"> Rs. 1000 only</p>
+                        <a href="#" class="btn btn-danger" onclick="animation()">Add To Cart</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-sm-12 col-md-3">
+                <div class="card">
+                    <img src="images/WhatsApp Image 2021-02-20 at 5.56.39 PM.jpeg" class="card-img-top" alt="...">
+                    <div class="card-body p-0 pb-2">
+                        <h5 class="card-title">Nike</h5>
+                        <p class="card-text">Rs. 800 only</p>
+                        <a href="#" class="btn btn-danger" onclick="animation()">Add To Cart</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-sm-12 col-md-2"></div>
+        </div>
+        <div class="row mt-5">
+            <div class="col-sm-12 col-md-1"></div>
+            <div class="col-sm-12 col-md-3">
+                <div class="card">
+                    <img src="images/WhatsApp Image 2021-02-20 at 5.56.41 PM.jpeg" class="card-img-top" alt="...">
+                    <div class="card-body p-0 pb-2">
+                        <h5 class="card-title">Addidas</h5>
+                        <p class="card-text">RS.750 only</p>
+                        <a href="#" class="btn btn-danger" onclick="animation()">Add To Cart</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-sm-12 col-md-3">
+                <div class="card">
+                    <img src="images/WhatsApp Image 2021-02-20 at 5.56.43 PM.jpeg" class="card-img-top" alt="...">
+                    <div class="card-body p-0 pb-2">
+                        <h5 class="card-title">Nike</h5>
+                        <p class="card-text"> Rs. 1000 only</p>
+                        <a href="#" class="btn btn-danger" onclick="animation()">Add To Cart</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-sm-12 col-md-3">
+                <div class="card">
+                    <img src="images/WhatsApp Image 2021-02-20 at 5.56.45 PM.jpeg" class="card-img-top" alt="...">
+                    <div class="card-body p-0 pb-2">
+                        <h5 class="card-title">puma</h5>
+                        <p class="card-text">Rs. 700 only</p>
+                        <a href="#" class="btn btn-danger" onclick="animation()">Add To Cart</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-sm-12 col-md-2"></div>
+        </div>
+        <div class="row mt-5">
+            <div class="col-sm-12 col-md-1"></div>
+            <div class="col-sm-12 col-md-3">
+                <div class="card">
+                    <img src="images/WhatsApp Image 2021-02-20 at 5.56.47 PM.jpeg" class="card-img-top" alt="...">
+                    <div class="card-body p-0 pb-2">
+                        <h5 class="card-title">puma</h5>
+                        <p class="card-text">RS.750 only</p>
+                        <a href="#" class="btn btn-danger" onclick="animation()">Add To Cart</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-sm-12 col-md-3">
+                <div class="card">
+                    <img src="images/WhatsApp Image 2021-02-20 at 5.56.49 PM.jpeg" class="card-img-top" alt="...">
+                    <div class="card-body p-0 pb-2">
+                        <h5 class="card-title">puma</h5>
+                        <p class="card-text"> Rs. 1100 only</p>
+                        <a href="#" class="btn btn-danger" onclick="animation()">Add To Cart</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-sm-12 col-md-3">
+                <div class="card">
+                    <img src="images/WhatsApp Image 2021-02-20 at 5.56.50 PM.jpeg" class="card-img-top" alt="...">
+                    <div class="card-body p-0 pb-2">
+                        <h5 class="card-title" id="companyname">Skylfe</h5>
+                        <p class="card-text" id="rate">Rs. 600 only</p>
+                        <a href="   " class="btn btn-danger" onclick="animation()">Add To Cart</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-sm-12 col-md-2"></div>
+        </div>
+    </div>
+
+    <!-- <div class="card-items">
+        <div class="cart-row text-center mt-3 ">
+            <div class="cart-item cart-column ">
+                <img class="cart-item-image" src="images/bag1.jpeg" height="100" width="100">
+            </div>
+            <span class="cart-item-title">bag</span>
+            <span class="cart-price cart-column">Rs.1800</span>
+            <div class="cart-quantity cart-column">
+                <input type="number" class="cart-quantity-input" value="1">
+                <button class="btn-warning" type="button">Remove</button>
+            </div>
+        </div>
+    </div> -->
+
+
+    <!--footer-->
+    <div class="container-fluid bg-primary text-center mt-5">
+        <div class="row">
+            <div class="col-sm-12 col-md-12">
+                <h2 class="footheading">CONTACT DETAILS</h2>
+                <i class="fa fa-map-marker" style="font-size:48px;color:white"> </i>
+                <p class="footheading">shop no #59, central plaza main M.A jinnah road, Karachi</p>
+            </div>
+
+        </div>
+        <hr>
+        <div class="row">
+            <div class="col-sm-12 col-md-4">
+                <p> <i class="fa fa-phone " style="font-size:22px;color:white"></i> <span
+                        style="color: white; font-weight: bold;">Usama Munir:+92 305 8489707 <br> khawaja M. Farooq:+92
+                        302 0242380 <br> sunil kumar +923013918216 </span></p>
+            </div>
+            <div class="col-sm-12 col-md-4">
+                <p style="color: white; font-weight: bold;">EMAIL: sunilarjan008@gmail.com </p>
+            </div>
+            <div class="col-sm-12 col-md-4"></div>
+        </div>
+    </div>
+
+
+
+
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+        integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+        crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"
+        integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+        crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"
+        integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+        crossorigin="anonymous"></script>
+    <script src="app.js"></script>
+
+    <!-- our aos data -->
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+
+        AOS.init({
+            offset: 400,
+            duration: 500,
+        });
+
+    </script>
+</body>
+
+</html>

@@ -1,0 +1,251 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+        integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <title>Document</title>
+</head>
+
+<body onload="swl()">
+    <div id="loading">
+
+    </div>
+    <div class="container-fluid p-0" id="bar">
+        <nav class="navbar navbar-expand-lg navbar-light ">
+            <div class="row w-100">
+                <div class="col-sm-12 col-md-7">
+                    <a class="navbar-brand" href="#"> <img class="p-2 " src="images/logo.jpeg" height="70" alt=""></a>
+                    <button class="navbar-toggler float-right mt-4 bg-light" type="button" data-toggle="collapse"
+                        data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false"
+                        aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                </div>
+                <div class="col-sm-12 col-md-5 ">
+                    <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+                        <div class="navbar-nav text-center pt-3">
+                            <a class="nav-item nav-link active text-light " href="index.html">Home <span class="sr-only">(current)</span></a>
+                            <a class="nav-item nav-link text-light" href="about.html">About</a>
+                            <a class="nav-item nav-link text-light" href="backpack.html">Backpack</a>
+                            <a class="nav-item nav-link text-light" href="product.html">Products</a>
+                            <a class="nav-item nav-link  text-light" href="#">Contact Us</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </nav>
+    </div>
+    <!-- <div class="container-fluid " id="nav">
+        <div class="row ">
+            <div class="col-sm-12 col-md-5 d-block d-md-none">
+                <img class="p-2 " src="images/logo.jpeg" height="70" alt="">
+            </div>
+            <div class="col-sm-12 col-md-3 d-none d-md-block">
+                <img class="p-2 " src="images/logo.jpeg" height="70" alt="" id="mobile">
+            </div>
+            <div class="col-sm-12 col-md-7  d-block d-md-none">
+                <ul class="nav justify-content-center pt-4 ">
+                    <li class="nav-item">
+                        <a class="nav-link active" href="#">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="about.html">About</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="backpack.html">Backpack</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="product.html">Products</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Contact Us</a>
+                    </li>
+                </ul>
+            </div>
+            <div class="col-sm-12 col-md-9  d-none d-md-block">
+                <ul class="nav justify-content-end pt-4 ">
+                    <li class="nav-item">
+                        <a class="nav-link active" href="#">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="about.html">About</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="backpack.html">Backpack</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="product.html">Products</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Contact Us</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </div> -->
+
+    <div class="container text-center mt-5">
+        <div class="row ">
+            <div class="col-smn-12 col-md-8 ">
+                <h2 id="h2"> It’s time to switch your shopping towards online from Pursile.</h2>
+                <p>
+                    Pursile is a online shopping center from which you can buy many product from us we have instagram
+                    page and facebook page also we will provide you best services.
+                    but we are offering limited product with unlimited items.
+                </p>
+                <p>
+                    Our products are precisely manufactured as per the highest specifications to ensure
+                    highest performance, aesthetics as well as functionality.
+                </p>
+            </div>
+            <div class="col-smn-12 col-md-4 img">
+                <img id="imagg" src="images/watch5.jpeg" width="300px" height="300px"
+                    onmouseover="src = 'images/bag19.jpeg', width='300',height= '300'"
+                    onmouseout="src = 'images/watch5.jpeg'" alt="">
+            </div>
+        </div>
+    </div>
+    <div class="container-fluid mt-5 pb-5 text-center" id="bod">
+        <div class="row text-center">
+            <div class="col-sm-12 col-md-3"></div>
+            <div class="col-sm-12 col-md-6 pt-5">
+                <h2 id="h2">We provide only high quality LED Products, More than our customer expectation</h2>
+            </div>
+            <div class="col-sm-12 col-md-3 mt-2"></div>
+        </div>
+        <div class="row text-center justify-content-center ">
+            <div class="col-sm-12 col-md-3 mt-2">
+                <div class="card justify-content-center  " data-aos="fade-left">
+                    <div class="card-body pb-3 p-0 ">
+                        <i class="fa fa-truck pt-3" style="font-size:48px;color:royalblue"></i>
+                        <h5 class="card-title">Delivery</h5>
+                        <p class="card-text mb-1">Deliver the product</p>
+                        <a href="#" class="btn btn-primary">Book Your Order</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-sm-12 col-md-3 mt-2 " data-aos="flip-left">
+                <div class="card justify-content-center">
+                    <i class="fa fa-desktop pt-3" style="font-size:48px;color:royalblue"></i>
+                    <div class="card-body pb-3 p-0 ">
+                        <h5 class="card-title">Booking</h5>
+                        <p class="card-text mb-1">Easy Online Booking</p>
+                        <a href="#" class="btn btn-primary">Book Your Order</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-sm-12 col-md-3 mt-2">
+                <div class="card justify-content-center" data-aos="fade-right">
+                    <i class="fa fa-rupee pt-3" style="font-size:48px;color:royalblue"></i>
+
+                    <div class="card-body pb-3  p-0">
+                        <h5 class="card-title">Save Your Cost</h5>
+                        <p class="card-text mb-1"> on cheep price.</p>
+                        <a href="#" class="btn btn-primary">Book Your Order</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="container mt-5">
+        <div class="row text-center" data-aos="zoom-out">
+            <div class="col-sm-12 col-md-12">
+                <h3>Product Range</h3>
+                <p>A wide range of bags, watch and slipper a solutions for both male and female!</p>
+            </div>
+        </div>
+    </div>
+    <div class="container text-center">
+        <div class="row">
+            <div class="col-md-1"></div>
+            <div class="col-sm-12 col-md-3" id="watch" data-aos="zoom-in">
+                <div class="card">
+                    <img src="images/wacth1111.jpeg" class="card-img-top" height="290px" alt="..."
+                        style="height: min-content;">
+                    <div class="card-body">
+                        <h5 class="card-title">Rolex Watch</h5>
+                        <p class="card-text">RS.1500 only</p>
+
+                    </div>
+                </div>
+            </div>
+            <div class="col-sm-12 col-md-3" data-aos="zoom-out-up">
+                <div class="card" id="Slipper">
+                    <img src="images/WhatsApp Image 2021-02-20 at 5.56.41 PM.jpeg" class="card-img-top" alt="..."
+                        style="height: min-content;">
+                    <div class="card-body">
+                        <h5 class="card-title">Addidas Slipper</h5>
+                        <p class="card-text"> Rs. 1000 only</p>
+
+                    </div>
+                </div>
+            </div>
+            <div class="col-sm-12 col-md-3" data-aos="fade-left">
+                <div class="card" id="bag">
+                    <img src="images/bag18.jpeg" class="card-img-top" alt="..." style="height: min-content;">
+                    <div class="card-body">
+                        <h5 class="card-title">Skylfe</h5>
+                        <p class="card-text">Rs. 1800 only</p>
+
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-2"></div>
+        </div>
+    </div>
+    <div class="container-fluid bg-primary text-center mt-5">
+        <div class="row">
+            <div class="col-sm-12 col-md-12">
+                <h2 class="footheading">CONTACT DETAILS</h2>
+                <i class="fa fa-map-marker" style="font-size:48px;color:white"> </i>
+                <p class="footheading">shop no #59, central plaza main M.A jinnah road, Karachi</p>
+            </div>
+
+        </div>
+        <hr>
+        <div class="row">
+            <div class="col-sm-12 col-md-4">
+                <p> <i class="fa fa-phone " style="font-size:22px;color:white"></i> <span
+                        style="color: white; font-weight: bold;">Usama Munir:+92 305 8489707 <br> khawaja M. Farooq:+92
+                        302 0242380 <br> sunil kumar +923013918216</span> </p>
+            </div>
+            <div class="col-sm-12 col-md-4">
+                <p style="color: white; font-weight: bold;">EMAIL: sunilarjan008@gmail.com </p>
+            </div>
+            <div class="col-sm-12 col-md-4"></div>
+        </div>
+    </div>
+
+
+
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+        integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+        crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"
+        integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+        crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"
+        integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+        crossorigin="anonymous"></script>
+    <script src="app.js"></script>
+    <!-- our aos data -->
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+        AOS.init({
+            offset: 200,
+            duration: 1000,
+        });
+
+    </script>
+
+</body>
+
+</html>

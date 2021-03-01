@@ -1,0 +1,110 @@
+html,body{
+    overflow-x: hidden;
+}
+#bar{
+    background-color: #564CBD !important   ;
+    -webkit-box-shadow: 7px 7px 5px 0px rgba(50, 50, 50, 0.75);
+    -moz-box-shadow:    7px 7px 5px 0px rgba(50, 50, 50, 0.75);
+    box-shadow:         7px 7px 5px 0px rgba(50, 50, 50, 0.75);
+}
+#nav{
+    /* background-color:#2A5CF7; */
+    margin-bottom: 20px;
+    box-shadow: 0px 9px 8px 5px rgba(0,0,0,0.41)
+}
+.nav-link {
+    color: blue;
+    font-weight: bold;
+}
+#imagg{
+    box-shadow: 4px 2px 10px 9px rgba(0,0,0,0.58);
+    -webkit-box-shadow: 4px 2px 10px 9px rgba(0,0,0,0.58);
+    -moz-box-shadow: 4px 2px 10px 9px rgba(0,0,0,0.58);
+}
+#bod{
+    background-color: #d1d8ea;
+    height: max-content;
+    
+
+}
+#watch:hover{
+margin-top: 5px;
+cursor: pointer;
+}
+#Slipper:hover{
+    margin-top: 5px;
+    cursor: pointer;
+}
+#bag:hover{
+    margin-top: 5px;
+    cursor: pointer;
+}
+.footheading{
+    margin-top: 10px;
+    color: white;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: bold;
+}
+#back{
+    background-image: url(http://www.aaronics.com/wp-content/uploads/2018/10/bg-new.jpg);
+}
+.user{
+    text-align: center;
+    background-color: coral;
+    padding: 10px;
+}
+.navi{
+    background: linear-gradient(#cdafaa,#9ee4e3);
+}
+
+
+
+
+
+
+@media(max-width:468px){
+    .nav-link {
+        font-size: 12px;
+        font-weight: bold;
+    }
+}
+@media(max-width:468px){
+    .nav-link {
+        font-size: 12px;
+        font-weight: bold;
+    }
+}
+@media(max-width:568px){
+    a.nav-link {
+        font-size: 12px;
+        font-weight: bold;
+        padding: 5px;
+       }
+}
+@media(max-width:360px){
+    #h2{
+        font-size: 16px;
+        color: royalblue;
+    }
+}
+@media(max-width:768px){
+    #h2{
+        font-size: 24px;
+        color: royalblue;
+    }
+}
+@media(max-width:360px)
+{
+    #h1{
+        font-size: 18px;
+    }
+}
+#loading{
+    position: fixed;
+    width: 100%;
+    height: 100vh;
+    background: #fff
+    url(images/200.gif)
+    no-repeat center;
+    z-index: 9999;
+}
